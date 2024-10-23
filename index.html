@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Gerador de Senhas</title>
+</head>
+<body>
+    
+    <div id="principal">
+
+        <h1>GERADOR DE SENHAS</h1>
+
+        <form id="formulario" action="contato.html" method="post">
+ 
+            <label for="qtdCaracteres">Quantos caracteres a sua senha precisa?</label><br />
+            <input type="text" name="nome" id="qtdCaracteres" />
+            <br>
+            <label for="caracMaiusculo">Sua senha precisa de caracteres maiusculos? s/n</label><br />
+            <input type="text" name="nome" id="caracMaiusculo" />
+            <br>
+            <label for="caracMinusculo">Sua senha precisa de caracteres minusculos? s/n</label><br />
+            <input type="text" name="nome" id="caracMinusculo" />
+            <br>
+            <label for="numeros">Sua senha precisa de numeros? s/n</label><br />
+            <input type="text" name="nome" id="numeros" />
+            <br>
+            <label for="caracEspeciais">Sua senha precisa de caracteres minusculos? s/n</label><br />
+            <input type="text" name="nome" id="caracEspeciais" />
+            <br>
+            <button type="button" onclick="capturarValores()">GEAR</button>
+           
+          </form>
+          <h2>SENHA</h2>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
